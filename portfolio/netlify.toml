@@ -1,7 +1,4 @@
 [build]
 base = "portfolio"
-publish = "portfolio/build"
+publish = "build"
 command = "npm run build"
-
-[functions]
-directory = ""  # Leave empty or remove this block if not using Netlify Functions
